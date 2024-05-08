@@ -1,8 +1,132 @@
+html {
+    font-family: Tahoma;
+}
+
 body {
-    background-color: grey;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(
+        180deg,
+        #0066b1,
+        #001423 50%
+    );
 }
 
 .flexcontainer {
     display: flex;
     flex-direction: column;
+    background: linear-gradient(
+        180deg,
+        #0066b1,
+        #001423 50%
+    );
+    width: 95%;
+    padding: 12px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95vw;
+}
+
+#header-img {
+    width: 33%;
+    height: 200px;
+    padding-bottom: 12px;
+}
+
+#nav-bar {
+    border: 4px solid #001423;
+    background-color: #ffe1ba;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 12px;
+    top: 0;
+}
+
+.nav-link {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 28px;
+    font-family: Tahoma;
+}
+
+a {
+    text-decoration: none;
+    color: #0066b1;
+}
+
+#aboutsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+#about {
+    font-size: 24px;
+    color: #fff773;
+    font-weight: bold;
+}
+
+#aboutdesc {
+    color: white;
+    font-size: 18px;
+    width: 66%;
+    text-align: center;
+}
+
+#video_demo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#videodemonstration {
+    font-size: 24px;
+    color: #fff773;
+    font-weight: bold;
+}
+
+#video {
+    border: 4px solid #fff773;
+    border-radius: 4px;
+    padding: 24px;
+    background-color: #8b5c29;
+}
+
+#registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#register {
+    font-size: 24px;
+    padding: 24px;
+    color: #fff773;
+    font-weight: bold;
+}
+
+#lyrics {
+    padding: 24px;
+    background-color:#ffe1ba;
+    text-align: center;
+    border-radius: 4px;
+    font-style: italic;
+}
+
+#rabble {
+    color: #fff773;
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+
+#vaultboy {
+    margin: 8px;
 }
